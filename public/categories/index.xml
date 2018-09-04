@@ -10,5 +10,14 @@
 	<atom:link href="https://stir.tokyo/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Diary</title>
+      <link>https://stir.tokyo/categories/diary/</link>
+      <pubDate>Sat, 01 Sep 2018 15:39:53 +0900</pubDate>
+      
+      <guid>https://stir.tokyo/categories/diary/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -121,17 +121,19 @@ hr {
 }
 
 #site-header {
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 3vh 0 0;
   background-color: rgba(#ffffff,0.95);
-  z-index: 10;
   box-shadow: 5px 0 45px #fefefe;
+  padding: 90px 0 0;
 
   .blog-title {
+    z-index: 10;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
 
     img {
       transition: all .5s ease-out;
@@ -142,6 +144,14 @@ hr {
       }
     }
   }
+
+  .blog-description {
+    font-size: 10px;
+    color: #aaa;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+  }
 }
 
 .list {
@@ -150,12 +160,17 @@ hr {
   .li {
     flex: 0 0 48%;
   }
+
+  @media screen and (max-width: 600px) {
+    .li {
+      flex: 0 0 100%;
+    }
+  }
 }
 
 article.li {
   background-color: #fff;
   box-shadow: 5px 0 45px rgba(0,0,0,0.05);
-  padding: 30px;
   margin: 0 auto 20px;
   border-radius: 10px;
   transition: all .5s ease-out;
@@ -201,6 +216,12 @@ article.li {
 
   .li-link {
     display: block;
+    color: #303030;
+  }
+
+  .post-header, .post-excerpt, .post-footer {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   h1 {
@@ -215,9 +236,19 @@ article.li {
     }
   }
 
+  figure {
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+    color: #888;
+  }
+
   footer {
     margin-top: 10px;
     font-size: 12px;
+    padding-bottom: 20px;
   }
 }
 

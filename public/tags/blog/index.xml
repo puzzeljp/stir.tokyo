@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>stir.tokyo</title>
-    <link>https://stir.tokyo/</link>
-    <description>Recent content on stir.tokyo</description>
+    <title>Blog on stir.tokyo</title>
+    <link>https://stir.tokyo/tags/blog/</link>
+    <description>Recent content in Blog on stir.tokyo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 01 Sep 2018 15:39:53 +0900</lastBuildDate>
     
-	<atom:link href="https://stir.tokyo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stir.tokyo/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
