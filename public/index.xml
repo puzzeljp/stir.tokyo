@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stir.tokyo</title>
+    <link>https://stir.tokyo/</link>
+    <description>Recent content on stir.tokyo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 01 Sep 2018 15:39:53 +0900</lastBuildDate>
+    
+	<atom:link href="https://stir.tokyo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1年に数回更新のブログから、&#34;最低&#34;週1回のブログ更新にします</title>
+      <link>https://stir.tokyo/2018/09/blog-start/</link>
+      <pubDate>Sat, 01 Sep 2018 15:39:53 +0900</pubDate>
+      
+      <guid>https://stir.tokyo/2018/09/blog-start/</guid>
+      <description>stir.tokyo start タイトルの通りなのですが、2012年くらいから存在している、colopixie をほとんど更新しなくなってしまい、新たに記事を更新していく</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://stir.tokyo/2018/09/blog-start/</loc>
+    <lastmod>2018-09-01T15:39:53+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stir.tokyo/tags/blog/</loc>
+    <lastmod>2018-09-01T15:39:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stir.tokyo/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stir.tokyo/categories/diary/</loc>
+    <lastmod>2018-09-01T15:39:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stir.tokyo/posts/</loc>
+    <lastmod>2018-09-01T15:39:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stir.tokyo/tags/</loc>
+    <lastmod>2018-09-01T15:39:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stir.tokyo/</loc>
+    <lastmod>2018-09-01T15:39:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

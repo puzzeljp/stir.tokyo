@@ -1,0 +1,16 @@
+baseURL = "https://stir.tokyo/"
+languageCode = "ja-jp"
+title = "stir.tokyo"
+theme = "stir-tokyo"
+publishDir = "./public"
+hasCJKLanguage = true
+
+[permalinks]
+  posts = "/:year/:month/:filename/"
+	code = "/:filename/"
+
+[params]
+  AuthorName = "puzzeljp"
+  GitHubUser = "puzzeljp"
+  SidebarRecentLimit = 10
+  description = "デザイン・写真・カメラ・映像・ガジェットのことなど役立つことを書いていくブログ"

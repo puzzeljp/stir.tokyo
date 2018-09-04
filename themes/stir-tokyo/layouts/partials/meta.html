@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="{{ if .IsNode }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ else }}{{ with .Description }}{{ . }}{{ end }}{{ end }}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="author" content="{{ .Site.Params.author }}">
+{{ with .Site.Params.keywords }}
+<meta name="keywords" content="{{ range $index, $element := $.Site.Params.keywords }}{{ if gt $index 0 }}, {{ end }}{{ . | safeHTML }}{{ else }}{{ . | safeHTML }}{{ end }}">
+{{ end }}
+{{ .Hugo.Generator }}

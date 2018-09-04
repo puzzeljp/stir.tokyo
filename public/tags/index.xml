@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on stir.tokyo</title>
+    <link>https://stir.tokyo/tags/</link>
+    <description>Recent content in Tags on stir.tokyo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 01 Sep 2018 15:39:53 +0900</lastBuildDate>
+    
+	<atom:link href="https://stir.tokyo/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://stir.tokyo/tags/blog/</link>
+      <pubDate>Sat, 01 Sep 2018 15:39:53 +0900</pubDate>
+      
+      <guid>https://stir.tokyo/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
