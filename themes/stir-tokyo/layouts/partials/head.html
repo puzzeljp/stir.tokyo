@@ -1,0 +1,23 @@
+<head>
+  {{ partial "meta.html" . }}
+  <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+  <link rel="canonical" href="{{ .Site.BaseURL }}" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ .RSSLink }}">
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/style.css"/>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="{{ .Site.BaseURL }}/js/pace.min.js"></script>
+  <script type="text/javascript" src="//fast.fonts.net/jsapi/52480e07-8882-47ca-9d51-1a1be5d90ba9.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".progress-bar").each(function(){
+        var percentage = parseInt($(this).html());
+        if(percentage > 0){
+          $(this).animate({'width':''+percentage+'px'}, 800);
+        }else{
+          $(this).css({'color':'black', 'background':'none'}, 800);
+        }
+      })
+    })
+  </script>
+</head>
