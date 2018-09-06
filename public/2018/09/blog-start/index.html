@@ -20,6 +20,7 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="">
   <link rel="stylesheet" type="text/css" href="https://stir.tokyo/css/style.css"/>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="icon" href="https://stir.tokyo//img/favicon.ico">
   <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="https://stir.tokyo//js/pace.min.js"></script>
   <script type="text/javascript" src="//fast.fonts.net/jsapi/52480e07-8882-47ca-9d51-1a1be5d90ba9.js"></script>
@@ -33,6 +34,13 @@
           $(this).css({'color':'black', 'background':'none'}, 800);
         }
       })
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 150) {
+            $('.blog-title').addClass('fixed');
+        } else {
+            $('.blog-title').removeClass('fixed');
+        }
+      });
     })
   </script>
 </head>
@@ -61,7 +69,7 @@
 
 <header id="site-header">
   <div class="container">
-      <a href="https://stir.tokyo/" alt="stir.tokyo"><h1 class="blog-title heading"><img src="https://stir.tokyo//img/logo.svg" alt=stir.tokyo></h1></a>
+      <a href="https://stir.tokyo/" alt="stir.tokyo" class="blog-title heading"><h1><img src="https://stir.tokyo//img/logo.svg" alt=stir.tokyo></h1></a>
       <p class="blog-description">デザイン・写真・カメラ・映像・ガジェットのことなど役立つことを書いていくブログ</p>
   </div>
 </header>
@@ -134,7 +142,8 @@ Twitter であれば、すぐ投稿したものが流れてしまいますし、
                         
         <section class="f-2">
             <section class="share">
-                <span>Share:
+                <span>
+                <strong>シェアしてね:</strong>
                 <a class="icon-twitter" href="http://twitter.com/share?text=1%e5%b9%b4%e3%81%ab%e6%95%b0%e5%9b%9e%e6%9b%b4%e6%96%b0%e3%81%ae%e3%83%96%e3%83%ad%e3%82%b0%e3%81%8b%e3%82%89%e3%80%81%22%e6%9c%80%e4%bd%8e%22%e9%80%b11%e5%9b%9e%e3%81%ae%e3%83%96%e3%83%ad%e3%82%b0%e6%9b%b4%e6%96%b0%e3%81%ab%e3%81%97%e3%81%be%e3%81%99&url=https%3a%2f%2fstir.tokyo%2f2018%2f09%2fblog-start%2f"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <i class="fa fa-twitter"></i>
@@ -174,11 +183,20 @@ Twitter であれば、すぐ投稿したものが流れてしまいますし、
     
     
     <a href="https://stir.tokyo/index.xml" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a>
-    <section>&copy; <a href="https://stir.tokyo/"></a> 2017 | All rights reserved</section>
+    <section>&copy; <a href="https://stir.tokyo/"></a> 2018 | All rights reserved</section>
     <section>Generated with <a href="http://gohugo.io/">Hugo</a>.</section>
   </div>
 </footer>
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125329575-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125329575-1');
+</script>
 
 
 </body>

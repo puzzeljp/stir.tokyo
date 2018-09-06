@@ -20,6 +20,7 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="https://stir.tokyo/categories/index.xml">
   <link rel="stylesheet" type="text/css" href="https://stir.tokyo/css/style.css"/>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="icon" href="https://stir.tokyo//img/favicon.ico">
   <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="https://stir.tokyo//js/pace.min.js"></script>
   <script type="text/javascript" src="//fast.fonts.net/jsapi/52480e07-8882-47ca-9d51-1a1be5d90ba9.js"></script>
@@ -33,6 +34,13 @@
           $(this).css({'color':'black', 'background':'none'}, 800);
         }
       })
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 150) {
+            $('.blog-title').addClass('fixed');
+        } else {
+            $('.blog-title').removeClass('fixed');
+        }
+      });
     })
   </script>
 </head>
@@ -59,7 +67,7 @@
 <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->
 <header id="site-header">
   <div class="container">
-      <a href="https://stir.tokyo/" alt="stir.tokyo"><h1 class="blog-title heading"><img src="https://stir.tokyo//img/logo.svg" alt=stir.tokyo></h1></a>
+      <a href="https://stir.tokyo/" alt="stir.tokyo" class="blog-title heading"><h1><img src="https://stir.tokyo//img/logo.svg" alt=stir.tokyo></h1></a>
       <p class="blog-description">デザイン・写真・カメラ・映像・ガジェットのことなど役立つことを書いていくブログ</p>
   </div>
 </header>
@@ -99,11 +107,20 @@
     
     
     <a href="https://stir.tokyo/index.xml" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a>
-    <section>&copy; <a href="https://stir.tokyo/"></a> 2017 | All rights reserved</section>
+    <section>&copy; <a href="https://stir.tokyo/"></a> 2018 | All rights reserved</section>
     <section>Generated with <a href="http://gohugo.io/">Hugo</a>.</section>
   </div>
 </footer>
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125329575-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125329575-1');
+</script>
 
 </body>
 </html>

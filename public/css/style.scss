@@ -121,19 +121,31 @@ hr {
 }
 
 #site-header {
-  background-color: rgba(#ffffff,0.95);
-  box-shadow: 5px 0 45px #fefefe;
-  padding: 90px 0 0;
+  padding: 30px 0 0;
 
   .blog-title {
     z-index: 10;
     text-align: center;
-    margin-top: 30px;
     margin-bottom: 0;
-    position: fixed;
-    top: 0px;
-    left: 0;
-    right: 0;
+    padding: 30px 0 20px; 
+
+    &.fixed {
+      position: fixed;
+      top: 0px;
+      left: 0;
+      right: 0;
+      padding: 20px 0 40px;
+      background-image: linear-gradient(-180deg, rgba(255,255,255,0.95) 50%, rgba(255,255,255,0.00) 100%);      // background-color: rgba(#ffffff,0.95);
+      // box-shadow: 5px 0 45px  rgba(#aaa,0.15);
+
+      h1 {
+        margin: 0;
+      }
+
+      img {
+        width: 100px;
+      }
+    }
 
     img {
       transition: all .5s ease-out;
@@ -151,6 +163,8 @@ hr {
     text-align: center;
     margin-bottom: 20px;
     padding: 0px 20px;
+    position: relative;
+    z-index: 12;
   }
 }
 
@@ -290,6 +304,17 @@ article.single {
     padding-bottom: 10px;
     font-size: 1.2rem;
     padding: 15px 0;
+  }
+
+  .share {
+    strong {
+      display: block;
+    }
+    span i {
+      font-size: 30px;
+      padding: 20px;
+      display: inline-block;
+    }
   }
 }
 
