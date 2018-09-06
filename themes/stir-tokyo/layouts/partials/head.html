@@ -18,6 +18,13 @@
           $(this).css({'color':'black', 'background':'none'}, 800);
         }
       })
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 150) {
+            $('.blog-title').addClass('fixed');
+        } else {
+            $('.blog-title').removeClass('fixed');
+        }
+      });
     })
   </script>
 </head>
