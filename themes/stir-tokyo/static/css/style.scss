@@ -29,7 +29,7 @@ body {
 a {
   color: #E281FF;
   text-decoration: none;
-
+  word-break : break-all;
 
   &:hover {
     color: #FFF686;
@@ -170,12 +170,20 @@ hr {
 
 .list {
   display: flex;
+  margin-top: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 
   .li {
     flex: 0 0 48%;
   }
+}
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
+  .list {
+    display: block;
+
     .li {
       flex: 0 0 100%;
     }
@@ -251,12 +259,13 @@ article.li {
   }
 
   figure {
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
   }
   
   p {
     margin-bottom: 15px;
     color: #888;
+    word-break : break-all;
   }
 
   footer {
@@ -282,6 +291,10 @@ article.single {
     margin-bottom: 20px;
   }
 
+  .post-content {
+    margin-bottom: 20px;
+  }
+
   h1 {
     margin: 0;
     padding-bottom: 10px;
@@ -293,10 +306,33 @@ article.single {
   p {
     margin: 0;
     padding-top: 10px;
+    word-break : break-all;
+  }
+
+  figure {
+    margin: 15px 0;    
+
+    h4 {
+      font-size: 10px;
+      color: #ddd;
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  ul {
+    list-style-type: circle;
+    margin-left: 15px;
+
+    ul {
+      margin: 5px 0 5px 15px;
+    }
   }
 
   .post-footer{
     color: #888;
+    margin-top: 20px;
+    text-align: center;
   }
 
   h2 {
