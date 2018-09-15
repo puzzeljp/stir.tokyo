@@ -144,34 +144,21 @@ article.li {
   transition: all .5s ease-out;
   position: relative;
   overflow: hidden; }
-  article.li:after {
-    content: '';
-    background: -webkit-linear-gradient(left, #e281ff 0%, #fff686 100%);
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: all .1s ease-out; }
-  article.li:active {
-    transform: scale(0.95, 0.95); }
-  article.li:hover {
-    box-shadow: 5px 0 45px rgba(0, 0, 0, 0.1);
-    transform: scale(1.01, 1.01); }
-    article.li:hover:after {
-      opacity: 1; }
-    article.li:hover h1, article.li:hover p, article.li:hover a, article.li:hover time, article.li:hover span, article.li:hover i, article.li:hover header {
-      transition: all .05s ease-out;
-      color: #fff;
-      position: relative;
-      z-index: 2;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-    article.li:hover a:hover {
-      text-decoration: none; }
   article.li .li-link {
     display: block;
-    color: #303030; }
+    color: #303030;
+    position: relative; }
+    article.li .li-link:after {
+      content: '';
+      background: -webkit-linear-gradient(left, #e281ff 0%, #fff686 100%);
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      opacity: 0;
+      z-index: -1;
+      transition: all .1s ease-out; }
   article.li .post-header, article.li .post-excerpt, article.li .post-footer {
     padding-left: 30px;
     padding-right: 30px; }
@@ -180,7 +167,10 @@ article.li {
     padding-bottom: 10px;
     font-size: 1.2rem;
     font-weight: bold;
-    font-family: "Noir W00 Medium", "AXIS ProN W55 B", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, "AxisStd-Regular", "AxisStd-Medium", sans-serif; }
+    font-family: "Noir W00 Medium", "AXIS ProN W55 B", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, "AxisStd-Regular", "AxisStd-Medium", sans-serif;
+    background: -webkit-linear-gradient(left, #e281ff 0%, #fff686 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
     article.li h1 a {
       display: block; }
   article.li figure {
@@ -193,6 +183,25 @@ article.li {
     margin-top: 10px;
     font-size: 12px;
     padding-bottom: 20px; }
+  article.li:active {
+    transform: scale(0.95, 0.95); }
+  article.li:hover {
+    box-shadow: 5px 0 45px rgba(0, 0, 0, 0.1);
+    transform: scale(1.01, 1.01); }
+    article.li:hover .li-link:after {
+      opacity: 1; }
+    article.li:hover h1, article.li:hover p, article.li:hover a, article.li:hover time, article.li:hover span, article.li:hover i, article.li:hover header {
+      transition: all .05s ease-out;
+      color: #fff;
+      position: relative;
+      z-index: 2;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+    article.li:hover h1 {
+      background: inherit;
+      -webkit-background-clip: inherit;
+      -webkit-text-fill-color: inherit; }
+    article.li:hover a:hover {
+      text-decoration: none; }
 
 article.single {
   max-width: 800px;
@@ -210,9 +219,13 @@ article.single {
   article.single h1 {
     margin: 0;
     padding-bottom: 10px;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    line-height: 1.4;
     font-weight: bold;
-    font-family: "Noir W00 Medium", "AXIS ProN W55 B", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, "AxisStd-Regular", "AxisStd-Medium", sans-serif; }
+    font-family: "Noir W00 Medium", "AXIS ProN W55 B", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, "AxisStd-Regular", "AxisStd-Medium", sans-serif;
+    background: -webkit-linear-gradient(left, #e281ff 0%, #fff686 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
   article.single p {
     margin: 0;
     padding-top: 10px;

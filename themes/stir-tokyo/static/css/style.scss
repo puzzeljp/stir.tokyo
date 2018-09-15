@@ -199,46 +199,23 @@ article.li {
   position: relative;
   overflow: hidden;
 
-  &:after {
-    content: '';
-    background: -webkit-linear-gradient(left, rgba(226,129,255,1) 0%, rgba(255,246,134,1) 100%);
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: all .1s ease-out;
-  }
-
-  &:active {
-    transform: scale(0.95,0.95);
-  }
-
-  &:hover {
-    box-shadow: 5px 0 45px rgba(0,0,0,0.1);
-    transform: scale(1.01,1.01);
-
-    &:after {
-      opacity: 1;
-    }    
-    
-    h1,p,a,time,span,i,header {
-      transition: all .05s ease-out;
-      color: #fff;
-      position: relative;
-      z-index: 2;
-      text-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    a:hover {
-      text-decoration: none;
-    }
-  }
-
   .li-link {
     display: block;
     color: #303030;
+    position: relative;
+
+    &:after {
+      content: '';
+      background: -webkit-linear-gradient(left, rgba(226,129,255,1) 0%, rgba(255,246,134,1) 100%);
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      opacity: 0;
+      z-index: -1;
+      transition: all .1s ease-out;
+    }
   }
 
   .post-header, .post-excerpt, .post-footer {
@@ -252,6 +229,9 @@ article.li {
     font-size: 1.2rem;
     font-weight: bold;
     font-family: $bold-font;
+    background: -webkit-linear-gradient(left, rgba(226,129,255,1) 0%, rgba(255,246,134,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
     a {
       display: block;
@@ -272,6 +252,37 @@ article.li {
     margin-top: 10px;
     font-size: 12px;
     padding-bottom: 20px;
+  }
+
+  &:active {
+    transform: scale(0.95,0.95);
+  }
+
+  &:hover {
+    box-shadow: 5px 0 45px rgba(0,0,0,0.1);
+    transform: scale(1.01,1.01);
+
+    .li-link:after {
+      opacity: 1;
+    }    
+    
+    h1,p,a,time,span,i,header {
+      transition: all .05s ease-out;
+      color: #fff;
+      position: relative;
+      z-index: 2;
+      text-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      background: inherit;
+      -webkit-background-clip: inherit; 
+      -webkit-text-fill-color: inherit;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
   }
 }
 
@@ -298,9 +309,13 @@ article.single {
   h1 {
     margin: 0;
     padding-bottom: 10px;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    line-height: 1.4;
     font-weight: bold;
     font-family: $bold-font;
+    background: -webkit-linear-gradient(left, rgba(226,129,255,1) 0%, rgba(255,246,134,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   p {
