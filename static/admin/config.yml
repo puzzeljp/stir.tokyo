@@ -1,8 +1,6 @@
 backend:
   name: github
   repo: puzzeljp/stir.tokyo
-  branch: master
-
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
