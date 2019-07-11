@@ -1,5 +1,5 @@
 ---
-title: 6th-jisaku-pc
+title: 6年ぶりにPCを組み立てました
 description: 6年ぶりに自作した記録
 date: 2019-07-11T13:05:50.287Z
 image: /images/uploads/6th-jisaku-pc.png
@@ -10,7 +10,6 @@ tags:
   - computer
   - ガジェット
 ---
-# 6年ぶりにPCを組み立てました
 [初めてパソコンを作りました \- colopixie](https://colopixie.com/computer/%e5%88%9d%e3%82%81%e3%81%a6%e3%83%91%e3%82%bd%e3%82%b3%e3%83%b3%e3%82%92%e4%bd%9c%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f/) に前回も組み立てたときに書きましたが、自分のメモとして書いておきます。
 
 ### 使い道
