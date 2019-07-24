@@ -1,6 +1,6 @@
 ---
-title: fuji-jpeg-1
-description: X-T30 と フジノンレンズ XF35mmF1.4 R の JPG 撮って出し
+title: '#1 X-T30 JPEG 撮って出し'
+description: X-T30 と フジノンレンズ XF35mmF1.4 R の JPEG 撮って出し
 date: 2019-07-24T03:52:50.331Z
 image: /images/uploads/fuji-jpeg-ogp.png
 ---
