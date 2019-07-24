@@ -9,7 +9,10 @@ X-T30 を買って、せっかくなのでJPEG撮って出しを記録してい�
 今回は借りているレンズ: [フジノンレンズ XF35mmF1\.4 R \| 富士フイルム](https://fujifilm.jp/personal/digitalcamera/x/fujinon_lens_xf35mmf14_r/)
 
 基本開放で撮影しているはず。設定はまだ悩み中。
+
+```
 クラシッククローム・DR400・シャドウトーン-1・カラー+1・ノイズリダクション-2
+```
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/puzzel-fukuchi/48361920342/in/dateposted/" title="DSCF0521"><img src="https://live.staticflickr.com/65535/48361920342_5f8f5feb6b_z.jpg" width="640" height="427" alt="DSCF0521"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
