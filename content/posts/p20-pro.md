@@ -1,10 +1,14 @@
 ---
-title: "P20 Pro をコンデジとメインスマホとして使ってみて"
-date: 2018-09-19T16:48:08+09:00
-draft: false
-categories: ["gadget"]
-tags: ["gadget","camera","smartphone"]
-image: "/images/p20-pro.jpg"
+title: P20 Pro をコンデジとメインスマホとして使ってみて
+description: P20 Pro をコンデジとメインスマホとして使ってみて
+date: 2018-09-19T07:48:08.000Z
+image: /images/p20-pro.jpg
+categories:
+  - gadget
+tags:
+  - gadget
+  - camera
+  - smartphone
 ---
 
 {{< figure src="/images/blog/p20-pro/IMGL0033.jpg" title="P20 Pro をコンデジとメインスマホとして使ってみて" class="center"  >}}
@@ -102,3 +106,8 @@ AIがよしなにフードだったり空だったり分けてくれるアレで
 ぜひ、試して下さいね！白ロムについては七万切っているところもあるので、デジカメを買おうかなと思っている方は良い感じのカメラでそのままSNSにアップロードできると思うと良いかもしれません。CM10…おっと誰かが。。。
 
 白ロム: https://www.musbi.net/keitai/search.php?com=list_o&category_id=116107101156106
+
+---
+
+<a class="twitter-moment" href="https://twitter.com/i/moments/1023963503659376641">P20 Pro</a>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
