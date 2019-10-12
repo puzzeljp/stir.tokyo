@@ -1,0 +1,13 @@
+---
+title: α7RⅣ-buy
+description: α7RⅣ を購入しました。フルサイズで6100万画素。6100万画素一体どんな世界なのか？
+date: 2019-09-22T05:47:30.685Z
+image: /images/uploads/alpha7r4.png
+categories:
+  - camera
+tags:
+  - camera
+  - α7RⅣ
+---
+α7RⅣ を購入しました。
+α7RⅢ からの買い替えですが、画素数やグリップの変化、防塵防滴の強化など変化は見られました。
