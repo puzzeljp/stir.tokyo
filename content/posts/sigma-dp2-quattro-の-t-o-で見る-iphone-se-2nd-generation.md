@@ -52,6 +52,8 @@ iPhone 11 の裏がサラサラだったのが微妙だったと思っていた�
 
 ## まとめ
 
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/puzzel-fukuchi/albums/72157714087745732" title="SIGMA dp2 Quattro T&amp;O / iPhone SE 2nd generation"><img src="https://live.staticflickr.com/65535/49832678106_f6d97ca561_k.jpg" width="2048" height="1365" alt="SIGMA dp2 Quattro T&amp;O / iPhone SE 2nd generation"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 iPhone SE をただレビューするのではなく、dp2 Quattro の T&O と共にお送りしました。
 正確な iPhone の筐体の色ではないですが、それは実物か他のレビューを見てください。
 正直、dp2 Quattro のフォーカスの遅さ、色がすぐ破綻する、RAWを扱うときは [SIGMA Photo Pro](https://www.sigma-global.com/jp/download/cameras/sigma-photo-pro/) を挟まないといけなかったりするのですが、Foveon センサーが最高ではあるので、T&O が来たことによりさらに使う場面が増えそうです。
