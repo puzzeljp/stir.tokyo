@@ -1,5 +1,5 @@
 ---
-title: SIGMA dp2 Quattro の T&O で見る iPhone SE (2nd generation)
+title: dp2quattro-t&o-iphonese
 description: |
   iPhone SE (2nd generation) 買いました
 date: 2020-05-03T02:26:34.788Z
